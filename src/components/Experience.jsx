@@ -8,11 +8,11 @@ const Experience = ({position, from, to, location, responsibilities}) => {
             <h2 className="text-3xl md:text-4xl font-bold mb-16 text-center gradient-text">Work Experience</h2>
             
             <div className="max-w-3xl mx-auto">
-                <ExperienceCard position={"Senior Full Stack Developer"}
+                <ExperienceCard position={"Junior Full Stack Developer"}
                 from={"July 2025"}
                 to ={"Present"}
                 location= {"NovaNet Technologies, Nairobi"}
-                responsibilities={["Led a team of 3 developers to build enterprise web applications",
+                responsibilities={["Supported a team of developers to build enterprise web applications",
                 "Architected and implemented microservices for scalable backend systems", 
                 "Optimized application performance, reducing load times by 40%"]}
                 />
