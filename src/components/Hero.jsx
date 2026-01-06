@@ -21,8 +21,8 @@ const Hero = ({title="Antony Kiplimo", subtitle = "Full Stack Developer", conten
                 {content}
             </p>
             <div className="flex justify-center space-x-6">
-                <HeroBtn text= {"View Projects"} bg={"white"} />
-                <HeroBtn text={"Contact Me"} bg={"white"} />
+                <HeroBtn text= {"View Projects"} bg={"white"} ref={"/portfolio"} />
+                <HeroBtn text={"Contact Me"} bg={"white"} ref={"/contact"} />
             </div>
         </div>
         
